@@ -40,8 +40,8 @@ z = np.array([b_list])
 print z
 
 np.random.seed(0) # arreglo al azar
-#z1 = np.random.randit(10, size=6) # no se por que aparece error de los parentesis que ocipa, siendo que es el mismo codigo del videp
-#z1
+z1 = np.random.randint(10, size=6) # no se por que aparece error de los parentesis que ocipa, siendo que es el mismo codigo del videp
+print z1
 
 # Para poder ver una foto, y su tipo de matriz.Como no esta esta la foto, se dejara como comentario
 #from skimae import io
